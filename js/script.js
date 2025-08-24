@@ -100,6 +100,40 @@ const swiper = new Swiper('.slider-wrapper', {
 
 
 
+// ========================== Contact Part  Start ==============================
+
+ const scriptURL = "https://script.google.com/macros/s/AKfycbzYAb0wctOJna8BwtSbSCkwRUvBf5fSHPC3gVddyGvhSGZIrG9I30fNSrJ5NjO-Awzv/exec"; 
+    const form = document.getElementById("contactForm");
+    const responseMsg = document.getElementById("responseMsg");
+
+    form.addEventListener("submit", e => {
+      e.preventDefault();
+
+      const data = {
+        name: form.name.value,
+        email: form.email.value,
+        number: form.number.value,
+        message: form.message.value
+      };
+
+      fetch(scriptURL, {
+        method: "POST",
+        body: JSON.stringify(data)
+      })
+      .then(res => res.text())
+      .then(msg => {
+        responseMsg.innerText = "✅ Message sent successfully!";
+        form.reset();
+      })
+      .catch(err => {
+        responseMsg.innerText = "❌ Error sending message!";
+        console.error(err);
+      });
+    });
+
+
+// ========================== Contact Part  end ==============================
+
 
 
 

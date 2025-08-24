@@ -254,6 +254,92 @@
     
     /* ==================== Blog end============================== */
 
+
+    /* ==================== Contact Part Start ============================== */
+
+  #Contact_us {
+    padding: 60px; 
+  }
+
+  #Contact_us .title h2 {
+    margin-bottom: 40px;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  #Contact_us .container .row {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  #Contact_us .container .row .left h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #Contact_us .container .row .left h3 {
+    width: 100%;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: -20px !important;
+  }
+
+  #Contact_us .container .row .left h4 {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  #Contact_us .container .row .right form {
+    margin-top: 25px;
+    width: 100%;
+  }
+
+  #Contact_us .container .row .right form input,
+  #Contact_us .container .row .right form .message input {
+    width: 100%; 
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+
+  #Contact_us .container .row .right button {
+    width: 100%;
+    padding: 8px 0;
+    font-size: 18px;
+    justify-content: center; 
+  }
+
+  .contact-left .title-section p {
+    font-size: 14px !important;
+    text-align: center;
+  }
+
+  .contact-left .contact-grid .contact-type {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .contact-left .contact-grid .contact-type .contact-icon {
+  width: 35px;
+  height: 35px;
+  border: 1px solid salmon;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ebb884;
+  border-radius: 50px;
+  margin-bottom: -4px;  
+}
+
+
+ 
+
+    /* ==================== Contact Part end ============================== */
+
 }
 
 

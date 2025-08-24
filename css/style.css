@@ -641,6 +641,117 @@ h6.blog-title.mt-4 {
 /* ==================== Blog end ============================== */
 
 
+/* ==================== Contact Part Start ============================== */
+#Contact_us{
+    padding:150px 0;
+    background: var(--Soft-Colors-Background, linear-gradient(180deg, #FFF7E7 0%, #FFF1DC 100%));
+}
+#Contact_us .title h2{
+   margin-bottom: 120px;
+}
+
+#Contact_us .container .from{
+    max-width: 870px;
+    margin: 0 auto;
+ 
+}
+#Contact_us .container .row .left h2{
+    margin-top: 36px;
+    color: var(--Theme-Colors-Danger, #F95C19);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+#Contact_us .container .row .left h3{
+    margin-top: 20px;
+    width: 412.869px;
+    color: black;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 110%;
+}
+
+#Contact_us .container .row .left h4{
+    margin-top: 10px;
+    width: 352px;
+    color: var(--Gray-500, #242323);
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; 
+}
+#Contact_us .container .row .right form {
+    margin-top: 40px;
+}
+#Contact_us .container .row .right form input {
+     margin-top: 15px;
+     padding: 15px  200px 15px 20px;
+     border-radius: 8px;
+     border: 2px solid #C5C5D2;
+     background: var(--Soft-Colors-Background, linear-gradient(180deg, #FFF7E7 0%, #FFF1DC 100%));
+}
+#Contact_us .container .row .right form .message input {
+     margin-top: 15px;
+     padding: 15px  200px 118px 20px;
+     border-radius: 8px;
+     border: 2px solid #C5C5D2;
+     background: var(--Soft-Colors-Background, linear-gradient(180deg, #FFF7E7 0%, #FFF1DC 100%));
+}
+
+#Contact_us .container .row .right button {
+  padding: 12px 90px;
+  color: var(--Theme-Colors-White, #FFF);
+  text-align: center;
+  font-family: Oxanium;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: var(--Theme-Colors-Danger, #F95C19);
+  border-radius: 5px;  
+  display: flex;
+  column-gap: 10px;
+  border: 0;
+}
+#Contact_us .container .row .right button{
+  margin: 36px auto;
+}
+
+.contact-left .title-section p {
+  font-size: 15px !important;
+  font-weight: 300 !important;
+  line-height: 1.8;
+  color: #6c757d;
+}
+
+.contact-left .contact-grid .contact-type .contact-icon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid salmon;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ebb884;
+  border-radius: 50px;
+}
+
+.contact-left .contact-grid .contact-type .contact-name {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: #1d1d1d;
+  text-transform: capitalize;
+}
+/* ==================== Contact Part end ============================== */
 
 
 
