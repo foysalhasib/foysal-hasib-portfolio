@@ -258,7 +258,7 @@
     /* ==================== Contact Part Start ============================== */
 
   #Contact_us {
-    padding: 60px; 
+    padding: 90px 16px; 
   }
 
   #Contact_us .title h2 {
@@ -300,8 +300,8 @@
   #Contact_us .container .row .right form input,
   #Contact_us .container .row .right form .message input {
     width: 100%; 
-    padding: 12px 15px;
-    font-size: 14px;
+    padding: 8px 15px;
+    font-size: 12px;
   }
 
   #Contact_us .container .row .right button {
@@ -339,6 +339,89 @@
  
 
     /* ==================== Contact Part end ============================== */
+
+
+
+
+
+    /* ==================== Footer start ============================== */
+  footer {
+    padding: 60px 20px 20px; 
+    text-align: left; 
+  }
+
+ footer h5 {
+  margin-top: 46px;
+	margin-bottom: 14px;
+	font-size: 18px;
+}
+footer p, footer a {
+	font-size: 14px;
+	margin-bottom: 6px;
+	text-align: left;
+}
+
+  /* Social Icons */
+ footer .social-icons {
+	margin-top: 14px;
+}
+
+ footer .social-icons a {
+	justify-content: flex-start;
+	margin-bottom: 14px;
+	font-size: 14px;
+}
+
+  footer .social-icons i {
+    font-size: 18px;
+    padding: 6px;
+  }
+
+  /* Newsletter */
+  footer .newsletter {
+    display: flex;
+    justify-content: flex-start; 
+    margin-top: 20px;
+    flex-wrap: wrap;
+  }
+
+  footer .newsletter input {
+	width: 100%;
+	border-radius: 20px;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+
+footer .newsletter input {
+	padding: 8px 0 8px 16px;
+}
+
+  footer .newsletter button {
+	width: auto;
+	border-radius: 22px;
+	font-size: 14px;
+	padding: 8px 17px;
+}
+
+  /* Footer bottom */
+  .footer-bottom {
+    font-size: 13px;
+    margin-top: 56px !important;
+    line-height: 1.6;
+    text-align: left; 
+  }
+  .footer-bottom p{
+    font-size: 11px;
+    margin: 0 auto;
+  }
+  .footer-bottom p span{
+    font-size: 12px;
+  }
+
+  
+
+
+    /* ==================== Footer  end ============================== */
 
 }
 

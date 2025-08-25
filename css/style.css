@@ -216,6 +216,44 @@ h1 h2 h3 h4 h5 h6{
 /* ====================banner end============================== */
 
 
+/* ====================Work start============================== */
+
+/* ====================Work end============================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ==================== Services start============================== */
 #services{
@@ -774,14 +812,14 @@ h6.blog-title.mt-4 {
     footer a:hover {
       color: #ffce00;
     }
-    .social-icons a {
+    footer .social-icons a {
       display: flex;
       align-items: center;
       margin-bottom: 10px;
       font-size: 15px;
       gap: 10px;
     }
-    .social-icons i {
+    footer .social-icons i {
     font-size: 20px; /* Icon size */
     border: 1px solid rgb(222, 228, 222); /* Light gray border */
     padding: 8px; /* Add more padding so the circle is bigger */
@@ -792,42 +830,42 @@ h6.blog-title.mt-4 {
 }
 
 /* Optional hover effect to make it look better */
-.social-icons i:hover {
+footer .social-icons i:hover {
     border-color: #007bff; /* Change border color on hover */
     color: #007bff; /* Change icon color on hover */
     background-color: #e6f0ff; /* Optional light background on hover */
 }
-.social-icons .github i:hover {
+footer .social-icons .github i:hover {
     border-color: #007bff; /* Change border color on hover */
     color: #eff2f5; /* Change icon color on hover */
     background-color: #07080a; /* Optional light background on hover */
 }
-.social-icons .medium i{
+footer .social-icons .medium i{
   font-size: 16px;
 
 }
 
     /* Social Icon Brand Colors */
-    .social-icons a.facebook i { color: #1877F2; }
-    .social-icons a.linkedin i { color: #0A66C2; }
-    .social-icons a.github i { color: #f8f8f8; }
-    .social-icons a.youtube i { color: #FF0000; }
-    .social-icons a.medium i { color: #00ab6c; }
-    .social-icons a.email i { color: #D44638; }
-    .social-icons a.whatsapp i { color: #25D366; }
+   footer .social-icons a.facebook i { color: #1877F2; }
+   footer .social-icons a.linkedin i { color: #0A66C2; }
+   footer .social-icons a.github i { color: #f8f8f8; }
+   footer .social-icons a.youtube i { color: #FF0000; }
+   footer .social-icons a.medium i { color: #00ab6c; }
+   footer .social-icons a.email i { color: #D44638; }
+   footer .social-icons a.whatsapp i { color: #25D366; }
 
     /* Newsletter */
-    .newsletter input {
+    footer .newsletter input {
       padding: 10px;
       border-radius: 25px 0 0 25px;
       border: none;
       outline: none;
     }
-     .last p {
+     footer .last p {
          margin-bottom: 24px;
     }
 
-    .newsletter button {
+   footer .newsletter button {
         padding: 6px 15px; /* Reduced padding to make the button smaller */
         border: none;
         border-radius: 0 25px 25px 0;
@@ -839,7 +877,7 @@ h6.blog-title.mt-4 {
         transition: 0.3s;
 }
 
-.newsletter button:hover {
+footer .newsletter button:hover {
   background: #e6b800;
 }
 
@@ -861,7 +899,9 @@ h6.blog-title.mt-4 {
 
 
 
-
+a{
+  display: block;
+}
 
 
 
