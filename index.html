@@ -15,7 +15,7 @@
 
     <!-- ======================== css link main  ================================= -->
      <link rel="stylesheet" href="css/style.css">
-
+    
 
      <!-- Swiperjs CDN CSS Link -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
@@ -39,7 +39,7 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#">About Me</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Work</a>
@@ -114,6 +114,675 @@
 </section>
 
 <!-- =========================== Banner end ==================================== -->
+<!-- =========================== About Start ==================================== -->
+ <section class="bg-half-100 about-section bg-secondary" id="about">
+        <div class="container">
+
+               <div class="row align-items-center">
+            <div class="col-xxl-12 text-center">
+                <div class="title">
+                    <h2>About Me</h2>
+                    <h3>My resume</h3>
+                </div>
+            </div>
+        </div>
+
+            <div class="row align-items-center">
+                <!-- Start Col -->
+                <div class="col-xxl-12">
+                    <div class="about-tab-section">
+                        <div class="about-tab">
+                            <ul class="nav nav-pills about-tab-pills mb-60" id="pills-tab" role="tablist">
+                                <!-- Tab menu -->
+                                <li class="nav-item custom-nav-item" role="presentation">
+                                    <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-about" type="button" role="tab" aria-controls="pills-about" 
+                                        aria-selected="true">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" 
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-inbox d-inline-block">
+                                            <polyline points="22 12 16 12 14 15 10 15 8 12 2 12"/>
+                                            <path d="M5.45 5.11 2 12v6a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-6l-3.45-6.89A2 2 0 0 0 16.76 4H7.24a2 2 0 0 0-1.79 1.11z"/>
+                                        </svg>
+                                        <span class="ms-1  d-sm-inline-block">about me</span>
+                                    </button>
+                                </li>
+                                <!-- <li class="nav-item custom-nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-profile-experience" data-bs-toggle="pill" data-bs-target="#pills-experience" type="button" role="tab" aria-controls="pills-experience" 
+                                        aria-selected="false">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" 
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-compass d-inline-block">
+                                            <circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+                                        </svg>
+                                        <span class="ms-1 d-none d-sm-inline-block">experience</span>
+                                    </button>
+                                </li> -->
+                                <li class="nav-item custom-nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-contact-education" data-bs-toggle="pill" data-bs-target="#pills-education" type="button" role="tab" aria-controls="pills-education"
+                                        aria-selected="false">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" 
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield d-inline-block">
+                                            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/>
+                                        </svg>
+                                        <span class="ms-1  d-sm-inline-block">education</span>
+                                    </button>
+                                </li>
+                                <li class="nav-item custom-nav-item" role="presentation">
+                                    <button class="nav-link" id="pills-contact-skills" data-bs-toggle="pill" data-bs-target="#pills-skills" type="button" role="tab" aria-controls="pills-skills"
+                                        aria-selected="false">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" 
+                                            stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket d-inline-block">
+                                            <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"/>
+                                            <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"/>
+                                            <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"/><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"/>
+                                        </svg>
+                                        <span class="ms-1 d-sm-inline-block">skills</span>
+                                    </button>
+                                </li>
+                            </ul>
+
+                            <!-- Tab content -->
+                            <div class="tab-content" id="pills-tabContent">
+                                <div class="tab-pane fade show active" id="pills-about" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                                    <div class="row align-items-center justify-content-center">
+                                        <div class="col-lg-6 col-sm-12 col-md-6">
+                                            <div class="about-tab-content">
+                                                <h4 class="title mt-4">MERN Stack Developer</h4>
+                                                <p class="para-desc text-muted mx-auto mb-0 mt-3"> I am a MERN stack developer, specializing in dynamic and responsive web applications. With expertise in MongoDB, Express, React, and Node.js, I create fast, scalable solutions that perform seamlessly across platforms, ensuring a smooth user experience and optimal performance.
+                                                </p>
+
+                                                <ul class="about-data has_text_move_anim ps-0 mt-5">
+                                                    <li>Name <span>:</span> <strong>Foysal Hasib</strong></li>
+                                                    <li>Address<span>:</span> <strong>Mirpur, Dhaka, Bangladesh</strong></li>
+                                                    <li>Nationality <span>:</span> <strong>Bangladeshi</strong></li>
+                                                    <li>Phone <span>:</span> <strong>+880 1788-224228</strong></li>
+                                                    <li>Email <span>:</span> <strong>faisalhasib82@gmail.com</strong></li>
+                                                    <li>Experience <span>:</span> <strong>3+ years</strong></li>
+                                                    <li>Freelance <span>:</span> <strong>Available</strong></li>
+                                                    <li>Language <span>:</span> <strong>Bangla, English</strong></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-sm-12 col-md-6">
+                                            <div class="developer-about__img">
+                                                <div class="about-image">
+                                                    <img src="img/banner/banner.png" alt="About Me" class="about-me img-fluid">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                           <!-- ======================= experience Start ========================= -->
+                                <!-- <div class="tab-pane fade" id="pills-experience" role="tabpanel" aria-labelledby="pills-profile-experience" tabindex="0">
+                                    <div class="row gy-4">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="experience-area">
+                                                <div class="experience-item">
+                                                    <div class="expe-year-section align-items-center d-flex mb-2">
+                                                        <i class="bi bi-calculator-fill me-2"></i>
+                                                        <h6 class="expe-year mb-0">2022 -2024</h6>
+                                                    </div>
+                                                    <h4 class="title">Senior Software Developer</h4>
+                                                    <h6 class="expe-company">Creative Developer</h6>
+                                                    <p class="text-muted para-desc mx-auto mb-0">Hello, I'm Denny, a seasoned product
+                                                        developer with a passion for crafting innovative solutions. I've honed my skills over
+                                                        years of hands-on experience in the industry.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="experience-area">
+                                                <div class="experience-item">
+                                                    <div class="expe-year-section align-items-center d-flex mb-2">
+                                                        <i class="bi bi-calculator-fill me-2"></i>
+                                                        <h6 class="expe-year mb-0">2020 -2022</h6>
+                                                    </div>
+                                                    <h4 class="title">UI/UX Developer</h4>
+                                                    <h6 class="expe-company">Creative UI/UX Design</h6>
+                                                    <p class="text-muted para-desc mx-auto mb-0">Hello, I'm Denny, a seasoned product
+                                                        developer with a passion for crafting innovative solutions. I've honed my skills over
+                                                        years of hands-on experience in the industry.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="experience-area">
+                                                <div class="experience-item">
+                                                    <div class="expe-year-section align-items-center d-flex mb-2">
+                                                        <i class="bi bi-calculator-fill me-2"></i>
+                                                        <h6 class="expe-year mb-0">2019 -2020</h6>
+                                                    </div>
+                                                    <h4 class="title">Junior Web Developer</h4>
+                                                    <h6 class="expe-company">Web Developer</h6>
+                                                    <p class="text-muted para-desc mx-auto mb-0 mt-3">Hello, I'm Denny, a seasoned product
+                                                        developer with a passion for crafting innovative solutions. I've honed my skills over
+                                                        years of hands-on experience in the industry.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="experience-area">
+                                                <div class="experience-item">
+                                                    <div class="expe-year-section align-items-center d-flex mb-2">
+                                                        <i class="bi bi-calculator-fill me-2"></i>
+                                                        <h6 class="expe-year mb-0">2017 -2019</h6>
+                                                    </div>
+                                                    <h4 class="title">Junior App Developer</h4>
+                                                    <h6 class="expe-company">Application Developer</h6>
+                                                    <p class="text-muted para-desc mx-auto mb-0 mt-3">Hello, I'm Denny, a seasoned product
+                                                        developer with a passion for crafting innovative solutions. I've honed my skills over
+                                                        years of hands-on experience in the industry.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div> -->
+                                <!-- ======================= experience-end ========================= -->
+                                <!-- ======================= Education Start ========================= -->
+                                <div class="tab-pane fade" id="pills-education" role="tabpanel" aria-labelledby="pills-contact-education" tabindex="0">
+                                    <div class="row gy-4">
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="experience-area">
+                                                <div class="experience-item">
+                                                    <div class="expe-year-section align-items-center d-flex mb-2">
+                                                        <i class="bi bi-calculator-fill me-2"></i>
+                                                        <h6 class="expe-year mb-0">2025 -2026</h6>
+                                                    </div>
+                                                    <h4 class="title">PGDIT</h4>
+                                                    <h6 class="expe-company">Jahangirnagar University</h6>
+                                                    <p class="text-muted para-desc mx-auto mb-0">Hello, I am Foysal Hasib. I completed PGD in ICT from Jahangirnagar University and have a strong foundation in technology, focusing on web development and programming.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="experience-area">
+                                                <div class="experience-item">
+                                                    <div class="expe-year-section align-items-center d-flex mb-2">
+                                                        <i class="bi bi-calculator-fill me-2"></i>
+                                                        <h6 class="expe-year mb-0">2022 -2023</h6>
+                                                    </div>
+                                                    <h4 class="title">Diploma in ICT</h4>
+                                                    <h6 class="expe-company">Bangladesh Computer Council</h6>
+                                                    <p class="text-muted para-desc mx-auto mb-0">Hello, I am Foysal Hasib. I completed a diploma in ICT from Bangladesh Computer Council and have a strong foundation in technology, focusing on web development and programming.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="experience-area">
+                                                <div class="experience-item">
+                                                    <div class="expe-year-section align-items-center d-flex mb-2">
+                                                        <i class="bi bi-calculator-fill me-2"></i>
+                                                        <h6 class="expe-year mb-0">2023 -2024</h6>
+                                                    </div>
+                                                    <h4 class="title">Front End Web Development (React Js) </h4>
+                                                    <h6 class="expe-company">Creative It Institute </h6>
+                                                    <p class="text-muted para-desc mx-auto mb-0"> 
+                                                        Hello, I am Foysal Hasib. I completed Front End Web Development (React Js) from Creative IT Institute, with a focus on building dynamic, user-friendly web applications.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="experience-area">
+                                                <div class="experience-item">
+                                                    <div class="expe-year-section align-items-center d-flex mb-2">
+                                                        <i class="bi bi-calculator-fill me-2"></i>
+                                                        <h6 class="expe-year mb-0">2024 -2026</h6>
+                                                    </div>
+                                                    <h4 class="title">MERN Stack Development</h4>
+                                                    <h6 class="expe-company">Technical College</h6>
+                                                    <p class="text-muted para-desc mx-auto mb-0 mt-3">
+                                                        Hello, I am Foysal Hasib. I completed MERN Stack Development from One Year Academy, specializing in building full-stack applications with MongoDB, Express, React, and Node.js.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="experience-area">
+                                                <div class="experience-item">
+                                                    <div class="expe-year-section align-items-center d-flex mb-2">
+                                                        <i class="bi bi-calculator-fill me-2"></i>
+                                                        <h6 class="expe-year mb-0">2020 -2025</h6>
+                                                    </div>
+                                                    <h4 class="title">Bachelor of Social Science (BSS)</h4>
+                                                    <h6 class="expe-company">Govt. Titumir College</h6>
+                                                    <p class="text-muted para-desc mx-auto mb-0 mt-3">
+                                                        Hello, I am Foysal Hasib. I completed a Bachelor of Social Science from Govt. Titumir College, combining a strong academic background with an interest in social work.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6">
+                                            <div class="experience-area">
+                                                <div class="experience-item">
+                                                    <div class="expe-year-section align-items-center d-flex mb-2">
+                                                        <i class="bi bi-calculator-fill me-2"></i>
+                                                        <h6 class="expe-year mb-0">2025 -2026</h6>
+                                                    </div>
+                                                    <h4 class="title">Master of Social Science (MSS)</h4>
+                                                    <h6 class="expe-company">Govt. Titumir College</h6>
+                                                    <p class="text-muted para-desc mx-auto mb-0 mt-3">
+                                                        Hello, I am Foysal Hasib. I completed a Master of Social Science (MSS) from Govt. Titumir College, combining a strong academic background with an interest in social work.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                        <!-- ======================= Education End ========================= -->
+
+                        <!-- ======================= Skill Start ========================= -->
+
+                                <div class="tab-pane fade Skill" id="pills-skills" role="tabpanel" aria-labelledby="pills-contact-skills" tabindex="0">
+                                    <!-- <div class="row">
+                                        <div class="col-lg-3 col-md-4">
+                                            <div class="skill-area mb-30">
+                                                <div class="skill-img">
+                                                    <img src="images/logo/1.png" class="img-fluid" alt="Skill Icon">
+                                                </div>
+                                                <h4 class="skill-percentage">98%</h4>
+                                                <p class="skill-pare mx-auto mb-0">Wordpress</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-4">
+                                            <div class="skill-area mb-30">
+                                                <div class="skill-img">
+                                                    <img src="images/logo/2.png" class="img-fluid" alt="Skill Icon">
+                                                </div>
+                                                <h4 class="skill-percentage">95%</h4>
+                                                <p class="skill-pare mx-auto mb-0">Figma</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-4">
+                                            <div class="skill-area mb-30">
+                                                <div class="skill-img">
+                                                    <img src="images/logo/3.png" class="img-fluid" alt="Skill Icon">
+                                                </div>
+                                                <h4 class="skill-percentage">95%</h4>
+                                                <p class="skill-pare mx-auto mb-0">Elementor</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-4">
+                                            <div class="skill-area mb-30">
+                                                <div class="skill-img">
+                                                    <img src="images/logo/6.png" class="img-fluid" alt="Skill Icon">
+                                                </div>
+                                                <h4 class="skill-percentage">96%</h4>
+                                                <p class="skill-pare mx-auto mb-0">HTML & CSS</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-4">
+                                            <div class="skill-area mb-md-0 mb-30">
+                                                <div class="skill-img">
+                                                    <img src="images/logo/5.png" class="img-fluid" alt="Skill Icon">
+                                                </div>
+                                                <h4 class="skill-percentage">85%</h4>
+                                                <p class="skill-pare mx-auto mb-0">Javascript</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-4">
+                                            <div class="skill-area mb-md-0 mb-30">
+                                                <div class="skill-img">
+                                                    <img src="images/logo/9.png" class="img-fluid" alt="Skill Icon">
+                                                </div>
+                                                <h4 class="skill-percentage">79%</h4>
+                                                <p class="skill-pare mx-auto mb-0">React JS</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-4">
+                                            <div class="skill-area mb-md-0 mb-30">
+                                                <div class="skill-img">
+                                                    <img src="images/logo/7.png" class="img-fluid" alt="Skill Icon">
+                                                </div>
+                                                <h4 class="skill-percentage">85%</h4>
+                                                <p class="skill-pare mx-auto mb-0">Laravel</p>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-4">
+                                            <div class="skill-area mb-md-0 mb-30">
+                                                <div class="skill-img">
+                                                    <img src="images/logo/8.png" class="img-fluid" alt="Skill Icon">
+                                                </div>
+                                                <h4 class="skill-percentage">87%</h4>
+                                                <p class="skill-pare mx-auto mb-0">Python</p>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                   <div class="container">
+                                       <div class="row skill_main">
+                            <!-- =====================  Skill one      ============================= -->
+                                        <div class="col-lg">
+                                            <div class="progress_bar">
+                                                <div class="skill one">
+                                                  <div class="outer">
+                                                    <div class="inner">
+                                                      <div id="number">
+                                                        <img src="images/html.png" alt="">
+                                                      </div>
+                                                    </div>
+                                                  </div> 
+                                                  <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    version="1.1"
+                                                    width="160px"
+                                                    height="160px"
+                                                  >
+                                                    <defs>
+                                                      <linearGradient id="GradientColor">
+                                                        <stop offset="0%" stop-color="#e91e63" />
+                                                        <stop offset="100%" stop-color="#673ab7" />
+                                                      </linearGradient>
+                                                    </defs>
+                                                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                                                  </svg>
+                                                  <h6>HTML</h6>
+                                                </div>             
+                                                </div>
+                                          </div>
+                                          <!-- =====================  Skill two      ============================= -->
+                                        <div class="col-lg">
+                                            <div class="progress_bar">
+                                                <div class="skill two">
+                                                  <div class="outer">
+                                                    <div class="inner">
+                                                      <div id="number">
+                                                          <img src="images/css.png" alt="">
+                                                      </div>
+                                                    </div>
+                                                  </div> 
+                                                  <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    version="1.1"
+                                                    width="160px"
+                                                    height="160px"
+                                                  >
+                                                    <defs>
+                                                      <linearGradient id="GradientColor">
+                                                        <stop offset="0%" stop-color="#e91e63" />
+                                                        <stop offset="100%" stop-color="#673ab7" />
+                                                      </linearGradient>
+                                                    </defs>
+                                                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                                                  </svg>
+                                                  <h6>CSS</h6>
+                                                </div>             
+                                                </div>
+                                          </div>
+                                          <!-- =====================  Skill three      ============================= -->
+                                        <div class="col-lg">
+                                            <div class="progress_bar">
+                                                <div class="skill three">
+                                                  <div class="outer">
+                                                    <div class="inner">
+                                                      <div id="number">
+                                                         <img src="images/bootstrap.png" alt="">
+                                                      </div>
+                                                    </div>
+                                                  </div> 
+                                                  <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    version="1.1"
+                                                    width="160px"
+                                                    height="160px"
+                                                  >
+                                                    <defs>
+                                                      <linearGradient id="GradientColor">
+                                                        <stop offset="0%" stop-color="#e91e63" />
+                                                        <stop offset="100%" stop-color="#673ab7" />
+                                                      </linearGradient>
+                                                    </defs>
+                                                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                                                  </svg>
+                                                  <h6>Bootstrap</h6>
+                                                </div>             
+                                                </div>
+                                          </div>
+                                          <!-- =====================  Skill four      ============================= -->
+                                        <div class="col-lg">
+                                            <div class="progress_bar">
+                                                <div class="skill four">
+                                                  <div class="outer">
+                                                    <div class="inner">
+                                                      <div id="number">
+                                                        <img src="images/tailwind.png" alt="">
+                                                      </div>
+                                                    </div>
+                                                  </div> 
+                                                  <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    version="1.1"
+                                                    width="160px"
+                                                    height="160px"
+                                                  >
+                                                    <defs>
+                                                      <linearGradient id="GradientColor">
+                                                        <stop offset="0%" stop-color="#e91e63" />
+                                                        <stop offset="100%" stop-color="#673ab7" />
+                                                      </linearGradient>
+                                                    </defs>
+                                                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                                                  </svg>
+                                                  <h6>Tailwind CSS</h6>
+                                                </div>             
+                                                </div>
+                                          </div>
+                                          <!-- =====================  Skill five      ============================= -->
+                                        <div class="col-lg">
+                                            <div class="progress_bar">
+                                                <div class="skill five">
+                                                  <div class="outer">
+                                                    <div class="inner">
+                                                      <div id="number">
+                                                         <img src="images/sass.png" alt="">
+                                                      </div>
+                                                    </div>
+                                                  </div> 
+                                                  <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    version="1.1"
+                                                    width="160px"
+                                                    height="160px"
+                                                  >
+                                                    <defs>
+                                                      <linearGradient id="GradientColor">
+                                                        <stop offset="0%" stop-color="#e91e63" />
+                                                        <stop offset="100%" stop-color="#673ab7" />
+                                                      </linearGradient>
+                                                    </defs>
+                                                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                                                  </svg>
+                                                  <h6>SASS </h6>
+                                                </div>             
+                                                </div>
+                                          </div>
+                                                  <!-- =====================  Skill six  ============================= -->
+                                                  <div class="col-lg">
+                                                    <div class="progress_bar">
+                                                        <div class="skill six">
+                                                          <div class="outer">
+                                                            <div class="inner">
+                                                              <div id="number">
+                                                                 <img src="images/javascript.png" alt="">
+                                                              </div>
+                                                            </div>
+                                                          </div> 
+                                                          <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            version="1.1"
+                                                            width="160px"
+                                                            height="160px"
+                                                          >
+                                                            <defs>
+                                                              <linearGradient id="GradientColor">
+                                                                <stop offset="0%" stop-color="#e91e63" />
+                                                                <stop offset="100%" stop-color="#673ab7" />
+                                                              </linearGradient>
+                                                            </defs>
+                                                            <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                                                          </svg>
+                                                          <h6>Javascript </h6>
+                                                        </div>             
+                                                        </div>
+                                                  </div>
+                                          <!-- =====================  Skill seven      ============================= -->
+                                          <div class="col-lg">
+                                            <div class="progress_bar">
+                                                <div class="skill seven">
+                                                  <div class="outer">
+                                                    <div class="inner">
+                                                      <div id="number">
+                                                           <img src="images/react.png" alt="">
+                                                      </div>
+                                                    </div>
+                                                  </div> 
+                                                  <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    version="1.1"
+                                                    width="160px"
+                                                    height="160px"
+                                                  >
+                                                    <defs>
+                                                      <linearGradient id="GradientColor">
+                                                        <stop offset="0%" stop-color="#e91e63" />
+                                                        <stop offset="100%" stop-color="#673ab7" />
+                                                      </linearGradient>
+                                                    </defs>
+                                                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                                                  </svg>
+                                                  <h6>React Js</h6>
+                                                </div>             
+                                                </div>
+                                          </div>
+                                          <!-- =====================  Skill eight      ============================= -->
+                                          <div class="col-lg">
+                                            <div class="progress_bar">
+                                                <div class="skill eight">
+                                                  <div class="outer">
+                                                    <div class="inner">
+                                                      <div id="number">
+                                                        <img src="images/expressjs.png" alt="">
+                                                      </div>
+                                                    </div>
+                                                  </div> 
+                                                  <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    version="1.1"
+                                                    width="160px"
+                                                    height="160px"
+                                                  >
+                                                    <defs>
+                                                      <linearGradient id="GradientColor">
+                                                        <stop offset="0%" stop-color="#e91e63" />
+                                                        <stop offset="100%" stop-color="#673ab7" />
+                                                      </linearGradient>
+                                                    </defs>
+                                                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                                                  </svg>
+                                                  <h6>Express js</h6>
+                                                </div>             
+                                                </div>
+                                          </div>
+                                        <!-- =====================  Skill nine      ============================= -->
+                                        <div class="col-lg">
+                                            <div class="progress_bar">
+                                                <div class="skill nine">
+                                                  <div class="outer">
+                                                    <div class="inner">
+                                                      <div id="number">
+                                                          <img src="images/nodejs.png" alt="">
+                                                      </div>
+                                                    </div>
+                                                  </div> 
+                                                  <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    version="1.1"
+                                                    width="160px"
+                                                    height="160px"
+                                                  >
+                                                    <defs>
+                                                      <linearGradient id="GradientColor">
+                                                        <stop offset="0%" stop-color="#e91e63" />
+                                                        <stop offset="100%" stop-color="#673ab7" />
+                                                      </linearGradient>
+                                                    </defs>
+                                                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                                                  </svg>
+                                                  <h6>Node Js</h6>
+                                                </div>             
+                                                </div>
+                                          </div>
+                                           
+                                          <!-- =====================  Skill ten      ============================= -->
+                                          <div class="col-lg">
+                                            <div class="progress_bar">
+                                                <div class="skill ten">
+                                                  <div class="outer">
+                                                    <div class="inner">
+                                                      <div id="number">
+                                                         <img src="images/mongobd.png" alt="">
+                                                      </div>
+                                                    </div>
+                                                  </div> 
+                                                  <svg
+                                                    xmlns="http://www.w3.org/2000/svg"
+                                                    version="1.1"
+                                                    width="160px"
+                                                    height="160px"
+                                                  >
+                                                    <defs>
+                                                      <linearGradient id="GradientColor">
+                                                        <stop offset="0%" stop-color="#e91e63" />
+                                                        <stop offset="100%" stop-color="#673ab7" />
+                                                      </linearGradient>
+                                                    </defs>
+                                                    <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+                                                  </svg>
+                                                  <h6>Mongodb</h6>
+                                                </div>             
+                                                </div>
+                                          </div>
+                                       
+                                        
+                                       </div>
+                                   </div>
+                                   
+                                    
+                                </div> 
+               
+                              
+                                <!-- ======================= Skill End ========================= -->
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- End col -->
+            </div><!-- End row -->
+        </div><!-- End container -->
+    </section>
+<!-- =========================== About end ==================================== -->
 
 
 <!-- =========================== Work start ==================================== -->

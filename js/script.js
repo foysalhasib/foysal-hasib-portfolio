@@ -11,7 +11,43 @@ window.addEventListener("scroll", function() {
 
 
 
+// ========================== Work Start ==============================
 
+  // সব filter button select করা
+  const filterButtons = document.querySelectorAll(".filter-options .categories");
+  const items = document.querySelectorAll(".picture-item");
+
+  filterButtons.forEach(button => {
+    button.addEventListener("click", () => {
+      // active class remove করা
+      filterButtons.forEach(btn => btn.classList.remove("active"));
+      button.classList.add("active");
+
+      const category = button.getAttribute("data-group");
+
+      items.forEach(item => {
+        const groups = JSON.parse(item.getAttribute("data-groups"));
+
+        if (category === "all" || groups.includes(category)) {
+          item.style.display = "block";   // show
+        } else {
+          item.style.display = "none";    // hide
+        }
+      });
+    });
+  });
+
+
+  // Toggle active class
+  const btns = document.querySelectorAll('.categories');
+  btns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+
+// ========================== Work End ==============================
 
 
 
@@ -147,30 +183,4 @@ const swiper = new Swiper('.slider-wrapper', {
 
 
   
-
-
-
-  // সব filter button select করা
-  const filterButtons = document.querySelectorAll(".filter-options .categories");
-  const items = document.querySelectorAll(".picture-item");
-
-  filterButtons.forEach(button => {
-    button.addEventListener("click", () => {
-      // active class remove করা
-      filterButtons.forEach(btn => btn.classList.remove("active"));
-      button.classList.add("active");
-
-      const category = button.getAttribute("data-group");
-
-      items.forEach(item => {
-        const groups = JSON.parse(item.getAttribute("data-groups"));
-
-        if (category === "all" || groups.includes(category)) {
-          item.style.display = "block";   // show
-        } else {
-          item.style.display = "none";    // hide
-        }
-      });
-    });
-  });
 

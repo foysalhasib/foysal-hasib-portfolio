@@ -97,6 +97,78 @@
     /* ===================== Banner end ================================== */
 
 
+    /* ==================== Work start============================== */
+
+
+  #work {
+    padding: 60px 4px; 
+  }
+
+  #work .projects-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  #work .projects-wrapper .work-container {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /* Image smaller for mobile */
+  #work .projects-wrapper .work-container .card-body {
+    height: 200px; 
+    border-radius: 4px;
+  }
+
+  #work .projects-wrapper .work-container .content {
+    bottom: 15px;
+    left: 50% !important;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+
+  #work .projects-wrapper .work-container .content .content-title {
+    font-size: 14px !important;
+    padding: 4px 10px;
+  }
+
+  #work .projects-wrapper .work-container .content .tag {
+    font-size: 10px !important;
+    padding: 3px 10px;
+  }
+
+  #work .filter-options {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  #work .filter-options .categories {
+	font-size: 12px;
+	padding: 6px 12px;
+	word-spacing: 2px;
+	display: inline-block;
+	margin: 3px;
+}
+
+#work .filter-options {
+	display: flex !important;
+	gap: 0px !important;
+	justify-content: center !important;
+	
+  
+}
+
+    /* ==================== Work End============================== */
+
+
+
+
+
+
+
+
+
     /* ==================== Services start============================== */
 
 #services {
@@ -424,6 +496,11 @@ footer .newsletter input {
     /* ==================== Footer  end ============================== */
 
 }
+
+
+
+
+
 
 
 
