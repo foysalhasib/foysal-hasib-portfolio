@@ -214,6 +214,7 @@ h1 h2 h3 h4 h5 h6{
   }
 
 /* ====================banner end============================== */
+
 /* ====================About Start============================== */
 #about{
   padding: 150px 70px;
@@ -230,6 +231,15 @@ h1 h2 h3 h4 h5 h6{
   max-width: 860px;
   margin: 0 auto;
   border-radius: 30px;
+}
+
+#about .expe-year{
+  margin-left: -8px;
+}
+#about .expe-company{
+  color: black;
+  font-weight: 600 !important;
+  font-size: 16px !important;
 }
 
 .about-tab-section .about-tab .about-tab-pills .custom-nav-item {
@@ -280,17 +290,12 @@ h1 h2 h3 h4 h5 h6{
       grid-template-columns: 130px 40px auto;
 }
 
-@media (max-width: 320px) {
-  .about-tab-section .about-tab .about-tab-content .about-data li {
-    -ms-grid-columns: 100px 40px auto;
-        grid-template-columns: 100px 40px auto;
-  }
-}
+
 
 .about-tab-section .about-tab .experience-item {
   border-radius: 15px;
   padding: 30px;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
 .about-tab-section .about-tab .experience-item .expe-year-section i {
@@ -354,37 +359,21 @@ h1 h2 h3 h4 h5 h6{
   color: #ddd;
 }
 
-
-
-
-
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins',sans-serif;
-}
+/* --------- skill start -------- */
 
 .Skill  .progress_bar{
     display: flex;
     justify-content: center; 
-    
-   
 }
-
 
 .Skill .container{
   height: 600px;
   margin-bottom: 20px;
-
-
 }
+
 .Skill .skill_main{
   display: flex;
-  column-gap: 20px;
-
+  column-gap: 36px;
 }
 
 .Skill .progress_bar .skill{
@@ -423,7 +412,7 @@ h1 h2 h3 h4 h5 h6{
 }
 
 .Skill .progress_bar #number{
-    font-weight: 600px;
+    font-weight: 600;
     color: #555;
 }
 
@@ -433,9 +422,10 @@ h1 h2 h3 h4 h5 h6{
   left: 0;
 }
 
+
 .Skill .progress_bar .one circle{
     fill: none;
-    stroke: url(#GradientColor);
+    stroke: #ff4b5c; 
     stroke-width: 20px;
     stroke-dasharray: 472;
     stroke-dashoffset: 472;
@@ -443,7 +433,7 @@ h1 h2 h3 h4 h5 h6{
 }
 .Skill .progress_bar .two circle{
     fill: none;
-    stroke: url(#GradientColor);
+    stroke: #ff9f1c; 
     stroke-width: 20px;
     stroke-dasharray: 472;
     stroke-dashoffset: 472;
@@ -451,16 +441,15 @@ h1 h2 h3 h4 h5 h6{
 }
 .Skill .progress_bar .three circle{
     fill: none;
-    stroke: url(#GradientColor);
+    stroke: #2ec4b6; 
     stroke-width: 20px;
     stroke-dasharray: 472;
     stroke-dashoffset: 472;
     animation: anim3 3s linear forwards;
 }
-
 .Skill .progress_bar .four circle{
     fill: none;
-    stroke: url(#GradientColor);
+    stroke: #3a86ff; 
     stroke-width: 20px;
     stroke-dasharray: 472;
     stroke-dashoffset: 472;
@@ -468,16 +457,15 @@ h1 h2 h3 h4 h5 h6{
 }
 .Skill .progress_bar .five circle{
     fill: none;
-    stroke: url(#GradientColor);
+    stroke: #8338ec; 
     stroke-width: 20px;
     stroke-dasharray: 472;
     stroke-dashoffset: 472;
     animation: anim5 3s linear forwards;
 }
-
 .Skill .progress_bar .six circle{
     fill: none;
-    stroke: url(#GradientColor);
+    stroke: #ff006e; 
     stroke-width: 20px;
     stroke-dasharray: 472;
     stroke-dashoffset: 472;
@@ -485,7 +473,7 @@ h1 h2 h3 h4 h5 h6{
 }
 .Skill .progress_bar .seven circle{
     fill: none;
-    stroke: url(#GradientColor);
+    stroke: #06d6a0; 
     stroke-width: 20px;
     stroke-dasharray: 472;
     stroke-dashoffset: 472;
@@ -493,7 +481,7 @@ h1 h2 h3 h4 h5 h6{
 }
 .Skill .progress_bar .eight circle{
     fill: none;
-    stroke: url(#GradientColor);
+    stroke: #ffd60a; 
     stroke-width: 20px;
     stroke-dasharray: 472;
     stroke-dashoffset: 472;
@@ -501,7 +489,7 @@ h1 h2 h3 h4 h5 h6{
 }
 .Skill .progress_bar .nine circle{
     fill: none;
-    stroke: url(#GradientColor);
+    stroke: #fb5607; 
     stroke-width: 20px;
     stroke-dasharray: 472;
     stroke-dashoffset: 472;
@@ -509,12 +497,13 @@ h1 h2 h3 h4 h5 h6{
 }
 .Skill .progress_bar .ten circle{
     fill: none;
-    stroke: url(#GradientColor);
+    stroke: #118ab2; 
     stroke-width: 20px;
     stroke-dasharray: 472;
     stroke-dashoffset: 472;
     animation: anim10 3s linear forwards;
 }
+
 
 .Skill img{
   height: 65px;
@@ -524,12 +513,10 @@ h1 h2 h3 h4 h5 h6{
   height: 100px;
   width: 100px;
 }
-
 .Skill .four img{
   height: 60px;
   width: 60px;
 }
-
 .Skill .eight img {
   height: 67px;
   width: 85px;
@@ -538,70 +525,20 @@ h1 h2 h3 h4 h5 h6{
   height: 67px;
   width: 85px;
 }
-.Skill .nine img {
-  height: 67px;
-  width: 85px;
-}
 
 
+@keyframes anim1{ 100%{ stroke-dashoffset:65; } }
+@keyframes anim2{ 100%{ stroke-dashoffset:90; } }
+@keyframes anim3{ 100%{ stroke-dashoffset:110; } }
+@keyframes anim4{ 100%{ stroke-dashoffset:80; } }
+@keyframes anim5{ 100%{ stroke-dashoffset:140; } }
+@keyframes anim6{ 100%{ stroke-dashoffset:190; } }
+@keyframes anim7{ 100%{ stroke-dashoffset:180; } }
+@keyframes anim8{ 100%{ stroke-dashoffset:140; } }
+@keyframes anim9{ 100%{ stroke-dashoffset:150; } }
+@keyframes anim10{ 100%{ stroke-dashoffset:100; } }
 
-
-@keyframes anim1{
-  100%{
-      stroke-dashoffset:65;
-  }
-}
-
-@keyframes anim2{
-  100%{
-      stroke-dashoffset:90;
-  }
-}
-
-@keyframes anim3{
-  100%{
-      stroke-dashoffset:110;
-  }
-}
-
-@keyframes anim4{
-  100%{
-      stroke-dashoffset:80;
-  }
-}
-
-@keyframes anim5{
-  100%{
-      stroke-dashoffset:140;
-  }
-}
-
-@keyframes anim6{
-  100%{
-      stroke-dashoffset:190;
-  }
-}
-@keyframes anim7{
-  100%{
-      stroke-dashoffset:180;
-  }
-}
-@keyframes anim8{
-  100%{
-      stroke-dashoffset:140;
-  }
-}
-@keyframes anim9{
-  100%{
-      stroke-dashoffset:150;
-  }
-}
-@keyframes anim10{
-  100%{
-      stroke-dashoffset:100;
-  }
-}
-
+/* --------- skill End -------- */
 /* ====================About end============================== */
 
 

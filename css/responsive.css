@@ -97,6 +97,123 @@
     /* ===================== Banner end ================================== */
 
 
+    /* ===================== About Start ================================== */
+    
+  :root {
+            --primary-color: #e8bf96;
+            --secondary-color: #1d1d1d;
+            --text-color: #696969;
+        }
+        
+        #about {
+            padding: 60px 0;
+            background: #FFF !important;
+        }
+
+        .about-tab-section .about-tab .about-tab-pills {
+            background-color: #e8bf9659 !important;
+            display: flex;
+            flex-wrap: wrap;
+            height: auto;
+            border-radius: 30px;
+            padding: 5px;
+            margin-bottom: 30px;
+        }
+
+        .about-tab-section .about-tab .about-tab-pills .custom-nav-item {
+            flex: 1 0 33.33%;
+            min-width: 33.33%;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .about-tab-section .about-tab .about-tab-pills .custom-nav-item .nav-link {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 12px 8px;
+            font-weight: 500;
+            font-size: 12px;
+            color: #1d1d1d;
+            border-radius: 100px;
+            position: relative;
+            text-transform: capitalize;
+            transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+            overflow: hidden;
+            height: 100%;
+        }
+
+      #about .expe-company {
+        font-weight: 500 !important;
+        font-size: 14px !important ;
+      }
+
+      #about h4{
+        	font-size: 18px;
+      }
+
+      .about-tab-section .about-tab .about-tab-pills .custom-nav-item .nav-link.active {
+        color: #1d1d1d;
+        background-color: #e8bf96;
+        border-radius: 28px;
+      }
+
+        .about-tab-section .about-tab .about-tab-pills .custom-nav-item .nav-link svg {
+            margin-bottom: 5px;
+            width: 18px;
+            height: 18px;
+        }
+
+        .about-tab-section .about-tab .about-tab-content .about-data {
+            padding-left: 0;
+        }
+
+        .about-tab-section .about-tab .about-tab-content .about-data li {
+            display: grid;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1.6;
+            padding-bottom: 8px;
+            grid-template-columns: 100px 15px auto;
+            word-break: break-word;
+        }
+
+        .about-tab-section .about-tab .experience-item {
+            border-radius: 15px;
+            padding: 20px;
+            border: 2px solid rgba(0, 0, 0, 0.1);
+            height: auto;
+        }
+
+        .about-tab-section .about-tab .experience-item .expe-year-section i {
+            color: #e8bf96;
+        }
+
+        .about-tab-section .about-tab .experience-item .expe-year {
+            font-size: 14px !important;
+            color: #e8bf96;
+            font-weight: 400 !important;
+        }
+
+        .about-tab-section .about-tab .experience-item .expe-company {
+            font-size: 14px !important;
+            text-transform: capitalize;
+            margin-bottom: 15px;
+            color: #696969;
+            font-weight: 400 !important;
+        }
+
+        .about-tab-section .about-tab .experience-item .title {
+            font-size: 18px !important;
+        }
+
+        /* Skill Section */
+    
+
+    
+    /* ===================== About end ================================== */
+
+
     /* ==================== Work start============================== */
 
 
@@ -504,3 +621,4 @@ footer .newsletter input {
 
 
 
+ 
