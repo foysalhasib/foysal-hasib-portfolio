@@ -612,6 +612,54 @@ footer .newsletter input {
 
     /* ==================== Footer  end ============================== */
 
+
+    /* ==================== Skill  Start ============================== */
+    .Skill{
+       margin: 0;
+       padding: 0;
+       background: rgb(253, 204, 169);
+    }
+
+.skill_main{
+  display: flex !important;
+ 
+  
+  
+}
+
+ .Skill .progress_bar{
+            display: flex;
+            justify-content: center; 
+            gap: 0;
+        }
+
+.Skill .progress_bar .one circle {
+	fill: none;
+	stroke: #ff4b5c;
+	stroke-width: 12px;
+	stroke-dasharray: 472;
+	stroke-dashoffset: 472;
+	animation: anim1 3s linear forwards;
+}
+
+
+.Skill img {
+	height: 36px;
+	width: 36px;
+}
+
+.Skill .progress_bar .skill {
+	width: 120px;
+	height: 140px;
+	position: relative;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 84px;
+}
+
+.progress_bar {
+	width: 80px;
+	background-color: salmon;
 }
 
 
@@ -621,4 +669,30 @@ footer .newsletter input {
 
 
 
- 
+
+
+
+    /* ==================== Skill  end ============================== */
+
+}
+
+
+       
+   
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+     
