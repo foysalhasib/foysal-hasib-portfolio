@@ -360,9 +360,6 @@ h1 h2 h3 h4 h5 h6{
 }
 
 /* --------- skill start -------- */
-body{
-  margin: 0 !important;    
-}
 
 .Skill .progress_bar{
             display: flex;
@@ -370,8 +367,10 @@ body{
         }
 
         .Skill .container{
-          height: 600px;
+          margin-top: 100px;
           margin-bottom: 20px;
+          padding: 0;
+         
         }
         .skill_row{
           display: flex !important;
@@ -472,7 +471,7 @@ body{
         }
         .Skill .progress_bar .six circle{
             fill: none;
-            stroke: #ff006e; 
+            stroke: #f6900b; 
             stroke-width: 20px;
             stroke-dasharray: 472;
             stroke-dashoffset: 472;
@@ -510,6 +509,22 @@ body{
             stroke-dashoffset: 472;
             animation: anim10 3s linear forwards;
         }
+        .Skill .progress_bar .eleven circle{
+            fill: none;
+            stroke: #ab54ee; 
+            stroke-width: 20px;
+            stroke-dasharray: 472;
+            stroke-dashoffset: 472;
+            animation: anim11 3s linear forwards;
+        }
+        .Skill .progress_bar .twelve circle{
+            fill: none;
+            stroke: #ff006e; 
+            stroke-width: 20px;
+            stroke-dasharray: 472;
+            stroke-dashoffset: 472;
+            animation: anim12 3s linear forwards;
+        }
 
         .Skill img{
           height: 65px;
@@ -542,6 +557,8 @@ body{
         @keyframes anim8{ 100%{ stroke-dashoffset:140; } }
         @keyframes anim9{ 100%{ stroke-dashoffset:150; } }
         @keyframes anim10{ 100%{ stroke-dashoffset:100; } }
+        @keyframes anim11{ 100%{ stroke-dashoffset:65; } }
+        @keyframes anim12{ 100%{ stroke-dashoffset:100; } }
 
 
 
@@ -1378,6 +1395,9 @@ h6.blog-title.mt-4 {
       text-decoration: none;
       margin-bottom: 10px;
       display: block;
+    }
+    footer .social-icons{
+       margin-left: -28px;
     }
     footer a:hover {
       color: #ffce00;

@@ -207,8 +207,28 @@
             font-size: 18px !important;
         }
 
-        /* Skill Section */
-    
+       
+/* === Skill  Start ===== */
+  
+.Skill .progress_bar .skill {
+	height: 120px;
+}
+
+
+.Skill h6 {
+	font-size: 16px !important;
+	
+}
+
+.Skill .container {
+	margin-top: 50px;
+	margin-bottom: 12px;
+	
+}
+
+
+
+    /* ==== Skill  end ====== */
 
     
     /* ===================== About end ================================== */
@@ -613,29 +633,7 @@ footer .newsletter input {
     /* ==================== Footer  end ============================== */
 
 
-    /* ==================== Skill  Start ============================== */
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* ==================== Skill  end ============================== */
+ 
 
 }
 
