@@ -360,7 +360,11 @@ h1 h2 h3 h4 h5 h6{
 }
 
 /* --------- skill start -------- */
- .Skill .progress_bar{
+body{
+  margin: 0 !important;    
+}
+
+.Skill .progress_bar{
             display: flex;
             justify-content: center; 
         }
@@ -368,6 +372,10 @@ h1 h2 h3 h4 h5 h6{
         .Skill .container{
           height: 600px;
           margin-bottom: 20px;
+        }
+        .skill_row{
+          display: flex !important;
+          justify-content: center !important;
         }
 
         .Skill .skill_main{
@@ -534,6 +542,7 @@ h1 h2 h3 h4 h5 h6{
         @keyframes anim8{ 100%{ stroke-dashoffset:140; } }
         @keyframes anim9{ 100%{ stroke-dashoffset:150; } }
         @keyframes anim10{ 100%{ stroke-dashoffset:100; } }
+
 
 
 /* --------- skill End -------- */
