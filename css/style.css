@@ -563,6 +563,69 @@ h1 h2 h3 h4 h5 h6{
 
 
 /* --------- skill End -------- */
+
+
+/* --------- Certificate Start -------- */
+
+
+    .certificate-box {
+      margin-top: 150px;
+      margin-bottom: 60px;
+      height: 450px;
+      background: #fff;
+      border: 5px solid #1565c0;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .certificate-box:hover {
+      transform: scale(1.03);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    }
+
+    .certificate-box img {
+      max-width: 95%;
+      max-height: 90%;
+      border-radius: 10px;
+      border: 2px solid #ccc;
+    }
+
+   .certificate .title {
+  position: absolute;
+  bottom: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1565c0;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  width: 300px;      
+  text-align: center; 
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------- Certificate End -------- */
 /* ====================About end============================== */
 
 

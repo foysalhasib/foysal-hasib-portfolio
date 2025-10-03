@@ -179,8 +179,47 @@ const swiper = new Swiper('.slider-wrapper', {
 
 
 
+document.addEventListener("DOMContentLoaded", function () {
+  // সব certificate box select করা
+  const certBoxes = document.querySelectorAll(".certificate-box");
 
+  certBoxes.forEach(box => {
+    const certImg = box.querySelector("img");
 
+    // create download button
+    const btn = document.createElement("button");
+    btn.innerHTML = '<i class="fa-solid fa-download"></i> Download'; // Font Awesome icon
+    btn.style.position = "absolute";
+    btn.style.bottom = "5px";
+    btn.style.left = "50%";
+    btn.style.transform = "translateX(-50%)";
+    btn.style.padding = "8px 16px";
+    btn.style.background = "#4CAF50";
+    btn.style.color = "#fff";
+    btn.style.border = "none";
+    btn.style.borderRadius = "6px";
+    btn.style.cursor = "pointer";
+    btn.style.fontSize = "14px";
+    btn.style.fontWeight = "bold";
+    btn.style.boxShadow = "0 4px 10px rgba(0,0,0,0.2)";
+    btn.style.transition = "0.3s";
 
-  
+    // hover effect
+    btn.onmouseover = function() { btn.style.background = "#388E3C"; }
+    btn.onmouseout = function() { btn.style.background = "#4CAF50"; }
+
+    // append button to box
+    box.appendChild(btn);
+
+    // click event for download
+    btn.addEventListener("click", function () {
+      const a = document.createElement("a");
+      a.href = certImg.src;
+      a.download = certImg.alt + ".jpg"; // image alt name দিয়ে download filename
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    });
+  });
+});
 
